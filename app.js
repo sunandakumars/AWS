@@ -17,7 +17,7 @@ const posts = [];
 // app.use(express.static("public"));
 
 app.get('/',function(req,res){
-  res.send(homeStartingContent);
+  res.send("Hello E4educate Team. Whish you all tremendous success");
   // console.log(post);
 })
 
