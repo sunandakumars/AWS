@@ -17,7 +17,7 @@ const posts = [];
 // app.use(express.static("public"));
 
 app.get('/',function(req,res){
-  res.send("<h1> Hello World </h1>");
+  res.send(homeStartingContent);
   // console.log(post);
 })
 
